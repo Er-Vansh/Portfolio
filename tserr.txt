@@ -1,0 +1,2 @@
+﻿src/components/Contact.tsx(3,8): error TS6133: 'React' is declared but its value is never read.
+src/components/Contact.tsx(3,17): error TS1484: 'FormEvent' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
