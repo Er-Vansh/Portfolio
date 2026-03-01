@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Database, Code2, Cpu } from 'lucide-react';
+import ProfileImage from '../assets/1000112215.jpg';
 
 export default function About() {
   const stats = [
@@ -58,8 +59,7 @@ export default function About() {
                   {/* Overlay for generic template usage */}
                   <div className="absolute inset-0 bg-brand-violet/20 mix-blend-overlay group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
                   {/* Photo Placeholder */}
-                  {/* // TODO: Replace with real data photo */}
-                  <img src="../../public/1000112215.jpg" alt="Vansh Maurya" className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" />
+                  <img src={ProfileImage} alt="Vansh Maurya" className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" />
                 </div>
               </div>
             </div>

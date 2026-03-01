@@ -4,7 +4,7 @@ import { Github, Linkedin, Twitter, Mail, Download, ArrowRight } from 'lucide-re
 import HeroParticleBackground from './HeroParticleBackground';
 
 // resume asset
-import resume from '../assets/VanshMaurya_Resume.pdf';
+import resume from '../../public/Vansh_Maurya_Resume.pdf';
 
 const roles = [
   "AI/ML Enthusiast",

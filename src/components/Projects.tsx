@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
+import SukoonAIImage from '../assets/SukoonAI.png';
+import NotMyFaultImage from '../assets/NotMyFault.png';
 
 const categories = ['All', 'ML', 'Web'];
 
@@ -9,7 +11,7 @@ const projectsData = [
     id: 1,
     title: 'SukoonAI',
     description: 'SukoonAI is an AI-powered mental health support platform developed as a team project, aimed at providing accessible and empathetic emotional assistance. The platform offers real-time AI-driven conversations, personalized wellness suggestions, and a secure, user-friendly experience to support mental well-being anytime, anywhere.',
-    image: '../../public/SukoonAI.png',
+    image: SukoonAIImage,
     tech: ['Google Medgemma','Grok API', 'NextJS', 'TailwindCSS'],
     category: 'ML',
     github: 'https://github.com/Er-Vansh/SukoonAI',
@@ -42,7 +44,7 @@ const projectsData = [
     id: 4,
     title: 'NotMyFault.AI',
     description: 'An innovative web application that leverages advanced AI models to generate humorous and context-aware excuses for various situations. Features include a chat interface, customizable excuse categories, and social sharing options. Built with a focus on user experience and responsive design.',
-    image: '../../public/NotMyFault.png',
+    image: NotMyFaultImage,
     tech: ['Python', 'HTML', 'VanillaJS', 'Google API'],
     category: 'Web',
     github: 'https://github.com/Er-Vansh/NotMyFault.AI',
